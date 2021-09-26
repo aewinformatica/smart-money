@@ -1,18 +1,10 @@
 import React from 'react';
-import {
-  Button,
-  FlatList,
-  SafeAreaView,
-  ScrollView,
-  StatusBar,
-  StyleSheet,
-  Text,
-  useColorScheme,
-  View,
-} from 'react-native';
+import {Button, FlatList, StyleSheet, Text, View} from 'react-native';
 
 const App = () => {
-  const addEntry = () => {};
+  const addEntry = () => {
+    console.log('Adicionar entrada');
+  };
   return (
     <View>
       <Text style={styles.top}>Saldo: R$ 2.102,45</Text>
